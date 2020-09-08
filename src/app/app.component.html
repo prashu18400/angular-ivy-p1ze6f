@@ -9,3 +9,5 @@
   </li>
 </ul>
 <p *ngIf="heroos.length>=2">There are many heroes</p>
+<p>My birthday is {{birthday | date:format}}</p>
+ <button (click)="toggleFormat()">Toggle Format</button>
